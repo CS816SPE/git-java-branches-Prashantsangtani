@@ -7,7 +7,8 @@ public class cal{
 	
 	do{
 	System.out.print("1, Add two no.s\n");
-	System.out.print("2. Exit\n\n");
+	System.out.print("2, Sub two no.s\n");
+	System.out.print("3. Exit\n\n");
 	System.out.print("Enter ur choice\n");
 	choice=scan.next().charAt(0);
 	switch(choice){
@@ -19,7 +20,14 @@ public class cal{
 		System.out.print("Result ="+res);
 		break;
 		
-		case '2' : System.exit(0);
+		case '2' : System.out.print("Enter 2 nos.");
+		a=scan.nextFloat();
+		b=scan.nextFloat();
+		res=a-b;
+		System.out.print("Result ="+res);
+		break;
+		
+		case '3' : System.exit(0);
 		break;
 		
 		default: System.out.print("Invalid choice ");
@@ -27,6 +35,6 @@ public class cal{
 		
 		}
 		System.out.print("\n----------------------");
-	}while(choice!=2);
+	}while(choice!=3);
 }
 }
