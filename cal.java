@@ -8,7 +8,7 @@ public class cal{
 	do{
 	System.out.print("1, Add two no.s\n");
 	System.out.print("2, Sub two no.s\n");
-	System.out.print("3, Sub two no.s\n");
+	System.out.print("3, Mul two no.s\n");
 	System.out.print("4. Exit\n\n");
 	System.out.print("Enter ur choice\n");
 	choice=scan.next().charAt(0);
